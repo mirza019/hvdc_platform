@@ -1,0 +1,13 @@
+HVDC System Analysis Report
+===========================
+
+Average Voltage: 499.86 kV
+Average Current: 1.50 kA
+
+Detected Anomalies:
+Voltage anomalies: 465
+Current anomalies: 0
+
+Optimal Parameters:
+Optimal Voltage: 480.00 kV
+Optimal Current: 1.08 kA
