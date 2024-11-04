@@ -10,6 +10,23 @@ This project simulates, analyzes, and optimizes data for a High Voltage Direct C
 - **Data Visualization**: Generates and saves multiple visualizations as PNG files.
 - **Automated Report**: Summarizes analysis and optimization results.
 
+  ## How to Run
+
+Follow these steps to set up and run the project on your local machine:
+
+1. **Clone the Repository**: Download the project from GitHub.
+   ```bash
+   git clone https://github.com/mirza019/hvdc_platform.git
+   cd hvdc_platform
+pip install -r requirements.txt
+python data/generate_data.py
+python main.py
+
+**Check Outputs:
+
+Figures: Generated figures are saved in the figures/ directory.
+Report: A summary report is generated in the reports/ directory, named hvdc_report.txt.
+
 ## Project Structure
 
 ```plaintext
@@ -20,3 +37,4 @@ hvdc_data_analysis/
 ├── data/                        # Data files and generation script
 ├── src/                         # Analysis, optimization, and visualization modules
 └── reports/                     # Generated report
+
