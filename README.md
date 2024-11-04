@@ -18,11 +18,13 @@ Follow these steps to set up and run the project on your local machine:
    ```bash
    git clone https://github.com/mirza019/hvdc_platform.git
    cd hvdc_platform
-pip install -r requirements.txt
-python data/generate_data.py
-python main.py
 
-**Check Outputs:
+  ```bash
+    pip install -r requirements.txt
+    python data/generate_data.py
+    python main.py
+   ```
+## Check Outputs:
 
 Figures: Generated figures are saved in the figures/ directory.
 Report: A summary report is generated in the reports/ directory, named hvdc_report.txt.
